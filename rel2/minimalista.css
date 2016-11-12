@@ -1,0 +1,50 @@
+body, html {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#lateral {
+	display:none;
+}
+
+#contenido {
+	flex: 3;
+	background-color: transparent;
+	overflow:scroll;
+}
+
+#contenido > * {
+	margin: 5px;
+}
+
+#menu {
+	display: flex;
+	list-style: none;
+}
+
+#menu li {
+	margin-right: 10px;
+}
+
+#marco {
+	border: none;
+}
+
+#oculto {
+	display: none;
+}
+
+#mayor-a{}
+
+#menor-a {}
+
+#por-defecto {}
+
+#alineado-izq {}
+
+#alineado-der {}
